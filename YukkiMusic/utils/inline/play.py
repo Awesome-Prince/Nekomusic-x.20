@@ -305,11 +305,11 @@ def panel_markup_2(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔀 sʜᴜғғʟᴇ",
+                text="⇄ sʜᴜғғʟᴇ",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔁 ʟᴏᴏᴘ", callback_data=f"ADMIN Loop|{chat_id}"
+                text="⟲ ʟᴏᴏᴘ", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
@@ -334,21 +334,21 @@ def panel_markup_3(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⏮ 10 sᴇᴄᴏɴᴅs",
+                text="◃◃ 10 sᴇᴄᴏɴᴅs",
                 callback_data=f"ADMIN 1|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏭ 10 sᴇᴄᴏɴᴅs",
+                text="▹▹ 10 sᴇᴄᴏɴᴅs",
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⏮ 30 sᴇᴄᴏɴᴅs",
+                text="◃◃ 30 sᴇᴄᴏɴᴅs",
                 callback_data=f"ADMIN 3|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏭ 30 sᴇᴄᴏɴᴅs",
+                text="▹▹ 30 sᴇᴄᴏɴᴅs",
                 callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],
