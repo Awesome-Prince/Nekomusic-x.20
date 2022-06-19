@@ -5,7 +5,7 @@ services:
     environment:
       API_ID: 16492083
       API_HASH: e44be9cbd9ed3eeb1775bc7a562a2df3
-      BOT_TOKEN: 5463433768:AAHB5B85WBIum-kwVMCLx20Z0rRuXWqpZBc
+      BOT_TOKEN: 2079359720:AAHOMb9pb-YVLCyW3SoR2H8CLMD5Gbg96lo
       MONGO_DB_URI: mongodb+srv://Hacker999:selvan868@cluster0.z27ur.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
       LOG_GROUP_ID: -1001667824024
       MUSIC_BOT_NAME: WolfXRobot
