@@ -256,6 +256,43 @@ def panel_markup_1(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
+                text="⏸ Pause", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="▶️ Resume",
+                callback_data=f"ADMIN Resume|{chat_id}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="⏯ Skip", callback_data=f"ADMIN Skip|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="⏹ Stop", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="◀️",
+                callback_data=f"Pages Back|0|{videoid}|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="🔙 Back",
+                callback_data=f"MainMarkup {videoid}|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="▶️",
+                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
+            ),
+        ],
+    ]
+    return buttons
+
+
+def panel_markup_2(_, videoid, chat_id):
+    buttons = [
+        [
+            InlineKeyboardButton(
                 text="🔇 Mute", callback_data=f"ADMIN Mute|{chat_id}"
             ),
             InlineKeyboardButton(
