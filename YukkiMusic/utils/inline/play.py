@@ -334,21 +334,21 @@ def panel_markup_3(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⏮ 10 sᴇᴄᴏɴᴅs",
+                text="⏮ 10 Seconds",
                 callback_data=f"ADMIN 1|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏭ 10 sᴇᴄᴏɴᴅs",
+                text="⏭ 10 Seconds",
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⏮ 30 sᴇᴄᴏɴᴅs",
+                text="⏮ 30 Seconds",
                 callback_data=f"ADMIN 3|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏭ 30 sᴇᴄᴏɴᴅs",
+                text="⏭ 30 Seconds",
                 callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],
@@ -368,3 +368,4 @@ def panel_markup_3(_, videoid, chat_id):
         ],
     ]
     return buttons
+
