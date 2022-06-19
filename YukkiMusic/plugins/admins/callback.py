@@ -79,14 +79,14 @@ async def del_back_playlist(client, CallbackQuery, _):
     chat_id = int(chat)
     pages = int(pages)
     if state == "Forw":
-        if pages == 1:
-            buttons = panel_markup_2(_, videoid, chat_id)
         if pages == 2:
+            buttons = panel_markup_2(_, videoid, chat_id)
+        if pages == 1:
             buttons = panel_markup_1(_, videoid, chat_id)
     if state == "Back":
-        if pages == 2:
-            buttons = panel_markup_2(_, videoid, chat_id)
         if pages == 1:
+            buttons = panel_markup_2(_, videoid, chat_id)
+        if pages == 2:
             buttons = panel_markup_1(_, videoid, chat_id)
     try:
         await CallbackQuery.edit_message_reply_markup(
