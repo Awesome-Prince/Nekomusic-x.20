@@ -10,6 +10,7 @@
 import random
 
 from pyrogram.types import InlineKeyboardButton
+import config
 
 selections = [
     "▁▄▂▇▄▅▄▅▃",
