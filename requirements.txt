@@ -3,7 +3,7 @@ aiohttp
 asyncio
 dnspython
 ffmpeg-python
-gitpython3
+gitpython
 hachoir
 heroku3
 lyricsgenius
