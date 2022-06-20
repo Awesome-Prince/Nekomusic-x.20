@@ -3,7 +3,7 @@ services:
   worker:
     build: .
     environment:
-      API_ID: 16492083
+      API_ID: 1649208
       API_HASH: e44be9cbd9ed3eeb1775bc7a562a2df3
       BOT_TOKEN: 2079359720:AAHOMb9pb-YVLCyW3SoR2H8CLMD5Gbg96lo
       MONGO_DB_URI: mongodb+srv://Hacker999:selvan868@cluster0.z27ur.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
