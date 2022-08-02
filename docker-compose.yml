@@ -8,7 +8,7 @@ services:
       BOT_TOKEN: 2079359720:AAHOMb9pb-YVLCyW3SoR2H8CLMD5Gbg96lo
       MONGO_DB_URI: mongodb+srv://Hacker999:selvan868@cluster0.z27ur.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
       LOG_GROUP_ID: -1001667824024
-      MUSIC_BOT_NAME: WolfXRobot
+      MUSIC_BOT_NAME: LisaMusicRobot
       OWNER_ID: 2050505901
       STRING_SESSION: BQApFSOk5BVdi1vC0uodfKFMs8UcRLQhPnYz2GMWS_AAvqVZkCFeHSRzHChjzJ5pho1fnihNB3IwPwpW5lhF_4JjMqnZDyJKfDCv6rKcO6m9NeQpTBL175msKHEHkcCQrcg_JFKXIlz1LmwVPTBYQl7pEyJWT8S4qPV6gmqQ-TyRIyz4wu_0BowPA4L08pBB74oyNOO6Q0TaAFZMYu0o2gDeMyAQKQdpndNGAqDzQsW__RsPy_vUvjZCz1_VcbelHFR7D1SedOfls5uc4Ow04GgzRkNBEKGV_10LTRdWX4lWfHbHtwzMXucdrt1l6iLROIiIpvKWoQvIOftdg_P2WRSpc3esaQA
       DURATION_LIMIT: 200
